@@ -1,0 +1,105 @@
+// Place all the styles related to the cocktails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+a:hover {
+  text-decoration: none !important;
+}
+
+.container1{
+  max-width: 100%;
+}
+
+.title{
+text-align: center;
+margin-top: 20px;
+padding-top: 0px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.title2{
+text-align: center;
+margin-top: 100px;
+padding-top: 0px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.new_cocktail{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.wrapping{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.container2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.simple_form{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+.form-inputs{
+margin-bottom: 30px;
+
+// margin-top: 20px;
+}
+
+.button{
+border-radius: 5px;
+background-color: none;
+color: #636FA4;
+margin-top: 30px;
+}
+.button:hover{
+background-color: #636FA4;
+color: white;
+ }
+
+ .new_wrapper{
+  height: calc(100vh - 70px);
+  background-size: cover !important;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  align-items: center;
+ }
+
+.back{
+position: absolute;
+top : 5px;
+left: 5px;
+}
+
+.dose{
+  color: white;
+  a{
+    text-decoration: none;
+    color: white;
+  }
+}
+
+
+.delete_cocktail{
+  margin-bottom: 50px;
+}
+
+.delete_dose{
+  margin-top: 20px;
+}

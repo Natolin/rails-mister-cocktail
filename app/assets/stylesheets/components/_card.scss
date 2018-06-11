@@ -1,0 +1,35 @@
+.card {
+  height: 180px;
+  width:100%;
+  background-size: cover !important;
+  background-position: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-image: image_path('../../images/cocktail1.jpeg');
+  position: relative;
+
+
+}
+
+.card h3{
+    color: white;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    font-size: 25px;
+}
+
+.card_link{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+}
+
+
+// .padding {
+//   padding: 10px;
+//   border: 2px solid red;
+//   }
+
+
+

@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+ @import 'cocktails';
+ @import 'doses';
+ @import "font-awesome-sprockets";
+ @import "font-awesome";
+ @import "components/index";
+ @import 'bootstrap';
+
+

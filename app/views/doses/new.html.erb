@@ -1,0 +1,21 @@
+<div class="new_wrapper" style="background-image: url(<%= image_path("banner.jpg") %>;">
+   <%= link_to cocktails_path do%>
+      <button type="button" class="back btn btn-outline-light">Back</button>
+      <% end %>
+    <h1 class="title2">New Dose</h1>
+      <div class="container2">
+        <div class="new_cocktail">
+        <%= render 'form', dose: @dose %>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
